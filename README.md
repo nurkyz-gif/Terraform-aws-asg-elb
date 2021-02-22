@@ -8,7 +8,7 @@
 ```
 module "wordpress" {
   app_name         = "wordpress"
-  source           = "nurkyz-gif/asg/aws"
+  source           = "nurkyz-gif/aws/asg-elb"
   aws_region       = "us-east-1"
   desired_capacity = 1
   max_size         = 1
